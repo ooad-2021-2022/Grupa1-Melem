@@ -2,5 +2,6 @@
 {
     public class Odgovor
     {
+        private int vrijednostOdgovora;
     }
 }
