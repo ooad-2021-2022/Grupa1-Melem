@@ -1,0 +1,6 @@
+﻿using System;
+
+public enum TipKoze
+{
+	SUHA, MASNA,KOMBINOVANA,OSJETLJIVA,NORMALNA,SKLONAAKNAMA
+}
