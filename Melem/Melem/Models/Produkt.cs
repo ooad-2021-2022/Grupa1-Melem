@@ -12,7 +12,6 @@ namespace Melem.Models
         public string naziv { get; set; }
         public string brend { get; set; }
         public double cijena { get; set; }
-
         public double ocjena { get; set; }
 
         public VrstaPreparata vrstaPreparata;

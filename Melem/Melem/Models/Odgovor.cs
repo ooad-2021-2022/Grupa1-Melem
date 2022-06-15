@@ -1,9 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Melem.Models{ 
+namespace Melem.Models
+{
     public class Odgovor
     {
-        private int vrijednostOdgovora;
+        public int vrijednostOdgovora { get; set; }
+
+        [Key]
+        public int ID { get; set; }
+
+        [ForeignKey("Pitanje")]
+        public int IDPitanja { get; set; }
     }
 }
