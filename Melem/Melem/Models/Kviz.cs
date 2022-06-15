@@ -1,8 +1,10 @@
-﻿namespace Melem.Models
+﻿using System.Collections.Generic;
+
+namespace Melem.Models
 {
     public class Kviz
     {
-        private int korisnickiID { get;set;}
-        private List<Pitanja> pitanja; 
+       private int korisnickiID { get;set;}
+        private List<Pitanje> pitanja; 
     }
 }

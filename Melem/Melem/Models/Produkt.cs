@@ -1,4 +1,6 @@
-﻿namespace Melem.Models
+﻿using System.Collections.Generic;
+
+namespace Melem.Models
 {
     public class Produkt
     {
@@ -7,6 +9,7 @@
         private double cijena { get; set;}
         private List<Sastojak> sastojci; 
         private double ocjena { get; set;}
+
         private VrstaPreparata vrstaPreparata; 
         private string lokacija {get;set; }
         private string slikaProdukta { get; set;}

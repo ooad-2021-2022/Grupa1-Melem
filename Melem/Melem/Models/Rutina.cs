@@ -1,4 +1,6 @@
-﻿namespace Melem.Models
+﻿using System.Collections.Generic;
+
+namespace Melem.Models
 {
     public class Rutina
     {

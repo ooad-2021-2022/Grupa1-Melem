@@ -2,7 +2,7 @@
 {
     public class Pitanje
     {
-        private string tekstPitanja { get;set;}; 
-        private Odgovor odgovor { get; set;}; 
+        private string tekstPitanja { get;set;}
+        private Odgovor odgovor { get; set;}
     }
 }
