@@ -4,7 +4,7 @@ namespace Melem.Models
 {
     public class Kviz
     {
-       private int korisnickiID { get;set;}
-        private List<Pitanje> pitanja; 
-    }
+        public int korisnickiID { get; set; }
+        public int ID { get; set; }
+     }
 }

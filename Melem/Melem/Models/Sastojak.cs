@@ -2,7 +2,8 @@
 {
     public class Sastojak
     {
-        private string naziv { get; set;}
-        private string CASbroj { get; set;}
+        public string naziv { get; set;}
+        public int  ID { get; set;}
+        public int IDSastojakIzProdukta { get; set; }
     }
 }

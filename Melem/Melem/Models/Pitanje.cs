@@ -2,7 +2,10 @@
 {
     public class Pitanje
     {
-        private string tekstPitanja { get;set;}
-        private Odgovor odgovor { get; set;}
+        public string tekstPitanja { get;set;}
+        public Odgovor odgovor { get; set;}
+
+        public int ID { get; set; }
+        public int IDKviza { get; set; }
     }
 }
