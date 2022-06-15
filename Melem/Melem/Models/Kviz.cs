@@ -6,11 +6,7 @@ namespace Melem.Models
 {
     public class Kviz
     {
-        [Key]
-        public int ID { get; set; }
-
-        [ForeignKey("Korisnik")]
-        public int korisnickiID { get; set; }
-
+       private int korisnickiID { get;set;}
+        private List<Pitanje> pitanja; 
     }
 }
