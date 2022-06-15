@@ -12,5 +12,7 @@ namespace Melem.Models
 
         [Key]
         public int ID { get; set; }
+        public Kviz() { }
+        
     }
 }

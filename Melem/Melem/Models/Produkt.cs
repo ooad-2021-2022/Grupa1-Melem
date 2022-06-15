@@ -18,6 +18,7 @@ namespace Melem.Models
         public string lokacija { get; set; }
         public string slikaProdukta { get; set; }
         public string slikaTestera { get; set; }
-    }
+        public Produkt(){}
+}
 
 }

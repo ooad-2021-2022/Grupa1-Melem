@@ -21,6 +21,8 @@ namespace Melem.Models
         [ForeignKey("Rutina")]
         public int IDRutine { get; set; }
         public TipStrucnjaka tipStrucnjaka { get; set; }
+
+        public Korisnik() { }
     }
 
 }

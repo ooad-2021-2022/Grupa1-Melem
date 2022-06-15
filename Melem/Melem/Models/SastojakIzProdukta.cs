@@ -13,6 +13,7 @@ namespace Melem.Models
 
         [ForeignKey("Sastojak")]
         public int IDSastojka { get; set; }
+        public SastojakIzProdukta(){}
 
-    }
+}
 }

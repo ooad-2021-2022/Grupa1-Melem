@@ -12,5 +12,6 @@ namespace Melem.Models
 
         [ForeignKey("Kviz")]
         public int IDKviza { get; set; }
-    }
+        public Pitanje(){}
+}
 }

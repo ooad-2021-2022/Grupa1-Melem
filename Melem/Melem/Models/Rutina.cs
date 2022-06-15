@@ -14,5 +14,6 @@ namespace Melem.Models
 
         public string vrsta { get; set; }
         public bool zavrsnea { get; set; }
-    }
+        public Rutina(){}
+}
 }

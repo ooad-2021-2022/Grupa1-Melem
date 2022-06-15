@@ -12,5 +12,7 @@ namespace Melem.Models
 
         [ForeignKey("Pitanje")]
         public int IDPitanja { get; set; }
-    }
+
+        public Odgovor(){}
+}
 }

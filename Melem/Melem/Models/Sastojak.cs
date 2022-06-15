@@ -9,5 +9,6 @@ namespace Melem.Models
         public int ID { get; set; }
 
         public string naziv { get; set; }
-    }
+        public Sastojak(){}
+}
 }
