@@ -1,21 +1,26 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Melem.Models
 {
     public class Korisnik
     {
-        private int Id { get; set; }
-        private string ime { get; set;}
-        private string prezime { get; set;}
-        private string sifra { get; set;}
-        private string emailAdresa { get; set;}
-        private string korisnickoIme {get; set;}
-        private DateTime datumRodjenja { get; set; }
-        private string slikaProfila { get; set;}
-        private Spol spol {get; set; }
-        private TipKoze tipKoze { get; set; }
-        private Rutina rutina {get; set; }
-        private TipStrucnjaka tipStrucnjaka { get; set; }
+        [Key]
+        public int Id { get; set; }
+        public string ime { get; set; }
+        public string prezime { get; set; }
+        public string sifra { get; set; }
+        public string emailAdresa { get; set; }
+        public string korisnickoIme { get; set; }
+        public DateTime datumRodjenja { get; set; }
+        public string slikaProfila { get; set; }
+        public Spol spol { get; set; }
+        public TipKoze tipKoze { get; set; }
+
+        [ForeignKey("Rutina")]
+        public int IDRutine { get; set; }
+        public TipStrucnjaka tipStrucnjaka { get; set; }
     }
 
 }

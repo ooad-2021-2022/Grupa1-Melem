@@ -1,8 +1,13 @@
-﻿namespace Melem.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Melem.Models
 {
     public class Sastojak
     {
-        private string naziv { get; set;}
-        private string CASbroj { get; set;}
+        [Key]
+        public int ID { get; set; }
+
+        public string naziv { get; set; }
     }
 }
